@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F0C3FBAC14F6E05400B8E790 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0C3FBAB14F6E05400B8E790 /* UIKit.framework */; };
+		F0C3FBAE14F6E05400B8E790 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0C3FBAD14F6E05400B8E790 /* Foundation.framework */; };
+		F0C3FBB014F6E05400B8E790 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0C3FBAF14F6E05400B8E790 /* CoreGraphics.framework */; };
+		F0C3FBB614F6E05400B8E790 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F0C3FBB414F6E05400B8E790 /* InfoPlist.strings */; };
+		F0C3FBB814F6E05400B8E790 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C3FBB714F6E05400B8E790 /* main.m */; };
+		F0C3FBBC14F6E05400B8E790 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C3FBBB14F6E05400B8E790 /* AppDelegate.m */; };
+		F0C3FBBF14F6E05400B8E790 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C3FBBE14F6E05400B8E790 /* ViewController.m */; };
+		F0C3FBC214F6E05400B8E790 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0C3FBC014F6E05400B8E790 /* ViewController.xib */; };
+		F0C3FBCA14F6E05400B8E790 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0C3FBC914F6E05400B8E790 /* SenTestingKit.framework */; };
+		F0C3FBCB14F6E05400B8E790 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0C3FBAB14F6E05400B8E790 /* UIKit.framework */; };
+		F0C3FBCC14F6E05400B8E790 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0C3FBAD14F6E05400B8E790 /* Foundation.framework */; };
+		F0C3FBD414F6E05400B8E790 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F0C3FBD214F6E05400B8E790 /* InfoPlist.strings */; };
+		F0C3FBD714F6E05400B8E790 /* GuiaTvTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C3FBD614F6E05400B8E790 /* GuiaTvTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F0C3FBCD14F6E05400B8E790 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0C3FB9E14F6E05400B8E790 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0C3FBA614F6E05400B8E790;
+			remoteInfo = GuiaTv;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F0C3FBA714F6E05400B8E790 /* GuiaTv.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuiaTv.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0C3FBAB14F6E05400B8E790 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F0C3FBAD14F6E05400B8E790 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F0C3FBAF14F6E05400B8E790 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F0C3FBB314F6E05400B8E790 /* GuiaTv-Info.plist */ = {isa = PBXFileReference; path = "GuiaTv-Info.plist"; sourceTree = "<group>"; };
+		F0C3FBB514F6E05400B8E790 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F0C3FBB714F6E05400B8E790 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F0C3FBB914F6E05400B8E790 /* GuiaTv-Prefix.pch */ = {isa = PBXFileReference; path = "GuiaTv-Prefix.pch"; sourceTree = "<group>"; };
+		F0C3FBBA14F6E05400B8E790 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		F0C3FBBB14F6E05400B8E790 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F0C3FBBD14F6E05400B8E790 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		F0C3FBBE14F6E05400B8E790 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F0C3FBC114F6E05400B8E790 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		F0C3FBC814F6E05400B8E790 /* GuiaTvTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GuiaTvTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0C3FBC914F6E05400B8E790 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		F0C3FBD114F6E05400B8E790 /* GuiaTvTests-Info.plist */ = {isa = PBXFileReference; path = "GuiaTvTests-Info.plist"; sourceTree = "<group>"; };
+		F0C3FBD314F6E05400B8E790 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F0C3FBD514F6E05400B8E790 /* GuiaTvTests.h */ = {isa = PBXFileReference; path = GuiaTvTests.h; sourceTree = "<group>"; };
+		F0C3FBD614F6E05400B8E790 /* GuiaTvTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GuiaTvTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F0C3FBA414F6E05400B8E790 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0C3FBAC14F6E05400B8E790 /* UIKit.framework in Frameworks */,
+				F0C3FBAE14F6E05400B8E790 /* Foundation.framework in Frameworks */,
+				F0C3FBB014F6E05400B8E790 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0C3FBC414F6E05400B8E790 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0C3FBCA14F6E05400B8E790 /* SenTestingKit.framework in Frameworks */,
+				F0C3FBCB14F6E05400B8E790 /* UIKit.framework in Frameworks */,
+				F0C3FBCC14F6E05400B8E790 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F0C3FB9C14F6E05400B8E790 = {
+			isa = PBXGroup;
+			children = (
+				F0C3FBB114F6E05400B8E790 /* GuiaTv */,
+				F0C3FBCF14F6E05400B8E790 /* GuiaTvTests */,
+				F0C3FBAA14F6E05400B8E790 /* Frameworks */,
+				F0C3FBA814F6E05400B8E790 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F0C3FBA814F6E05400B8E790 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F0C3FBA714F6E05400B8E790 /* GuiaTv.app */,
+				F0C3FBC814F6E05400B8E790 /* GuiaTvTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F0C3FBAA14F6E05400B8E790 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F0C3FBAB14F6E05400B8E790 /* UIKit.framework */,
+				F0C3FBAD14F6E05400B8E790 /* Foundation.framework */,
+				F0C3FBAF14F6E05400B8E790 /* CoreGraphics.framework */,
+				F0C3FBC914F6E05400B8E790 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F0C3FBB114F6E05400B8E790 /* GuiaTv */ = {
+			isa = PBXGroup;
+			children = (
+				F0C3FBBA14F6E05400B8E790 /* AppDelegate.h */,
+				F0C3FBBB14F6E05400B8E790 /* AppDelegate.m */,
+				F0C3FBBD14F6E05400B8E790 /* ViewController.h */,
+				F0C3FBBE14F6E05400B8E790 /* ViewController.m */,
+				F0C3FBC014F6E05400B8E790 /* ViewController.xib */,
+				F0C3FBB214F6E05400B8E790 /* Supporting Files */,
+			);
+			path = GuiaTv;
+			sourceTree = "<group>";
+		};
+		F0C3FBB214F6E05400B8E790 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F0C3FBB314F6E05400B8E790 /* GuiaTv-Info.plist */,
+				F0C3FBB414F6E05400B8E790 /* InfoPlist.strings */,
+				F0C3FBB714F6E05400B8E790 /* main.m */,
+				F0C3FBB914F6E05400B8E790 /* GuiaTv-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F0C3FBCF14F6E05400B8E790 /* GuiaTvTests */ = {
+			isa = PBXGroup;
+			children = (
+				F0C3FBD514F6E05400B8E790 /* GuiaTvTests.h */,
+				F0C3FBD614F6E05400B8E790 /* GuiaTvTests.m */,
+				F0C3FBD014F6E05400B8E790 /* Supporting Files */,
+			);
+			path = GuiaTvTests;
+			sourceTree = "<group>";
+		};
+		F0C3FBD014F6E05400B8E790 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F0C3FBD114F6E05400B8E790 /* GuiaTvTests-Info.plist */,
+				F0C3FBD214F6E05400B8E790 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F0C3FBA614F6E05400B8E790 /* GuiaTv */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0C3FBDA14F6E05400B8E790 /* Build configuration list for PBXNativeTarget "GuiaTv" */;
+			buildPhases = (
+				F0C3FBA314F6E05400B8E790 /* Sources */,
+				F0C3FBA414F6E05400B8E790 /* Frameworks */,
+				F0C3FBA514F6E05400B8E790 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GuiaTv;
+			productName = GuiaTv;
+			productReference = F0C3FBA714F6E05400B8E790 /* GuiaTv.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F0C3FBC714F6E05400B8E790 /* GuiaTvTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0C3FBDD14F6E05400B8E790 /* Build configuration list for PBXNativeTarget "GuiaTvTests" */;
+			buildPhases = (
+				F0C3FBC314F6E05400B8E790 /* Sources */,
+				F0C3FBC414F6E05400B8E790 /* Frameworks */,
+				F0C3FBC514F6E05400B8E790 /* Resources */,
+				F0C3FBC614F6E05400B8E790 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F0C3FBCE14F6E05400B8E790 /* PBXTargetDependency */,
+			);
+			name = GuiaTvTests;
+			productName = GuiaTvTests;
+			productReference = F0C3FBC814F6E05400B8E790 /* GuiaTvTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F0C3FB9E14F6E05400B8E790 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = F0C3FBA114F6E05400B8E790 /* Build configuration list for PBXProject "GuiaTv" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F0C3FB9C14F6E05400B8E790;
+			productRefGroup = F0C3FBA814F6E05400B8E790 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F0C3FBA614F6E05400B8E790 /* GuiaTv */,
+				F0C3FBC714F6E05400B8E790 /* GuiaTvTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F0C3FBA514F6E05400B8E790 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0C3FBB614F6E05400B8E790 /* InfoPlist.strings in Resources */,
+				F0C3FBC214F6E05400B8E790 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0C3FBC514F6E05400B8E790 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0C3FBD414F6E05400B8E790 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F0C3FBC614F6E05400B8E790 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F0C3FBA314F6E05400B8E790 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0C3FBB814F6E05400B8E790 /* main.m in Sources */,
+				F0C3FBBC14F6E05400B8E790 /* AppDelegate.m in Sources */,
+				F0C3FBBF14F6E05400B8E790 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0C3FBC314F6E05400B8E790 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0C3FBD714F6E05400B8E790 /* GuiaTvTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F0C3FBCE14F6E05400B8E790 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0C3FBA614F6E05400B8E790 /* GuiaTv */;
+			targetProxy = F0C3FBCD14F6E05400B8E790 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F0C3FBB414F6E05400B8E790 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0C3FBB514F6E05400B8E790 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F0C3FBC014F6E05400B8E790 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0C3FBC114F6E05400B8E790 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+		F0C3FBD214F6E05400B8E790 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0C3FBD314F6E05400B8E790 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F0C3FBD814F6E05400B8E790 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		F0C3FBD914F6E05400B8E790 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F0C3FBDB14F6E05400B8E790 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GuiaTv/GuiaTv-Prefix.pch";
+				INFOPLIST_FILE = "GuiaTv/GuiaTv-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F0C3FBDC14F6E05400B8E790 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GuiaTv/GuiaTv-Prefix.pch";
+				INFOPLIST_FILE = "GuiaTv/GuiaTv-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F0C3FBDE14F6E05400B8E790 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GuiaTv.app/GuiaTv";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GuiaTv/GuiaTv-Prefix.pch";
+				INFOPLIST_FILE = "GuiaTvTests/GuiaTvTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		F0C3FBDF14F6E05400B8E790 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GuiaTv.app/GuiaTv";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GuiaTv/GuiaTv-Prefix.pch";
+				INFOPLIST_FILE = "GuiaTvTests/GuiaTvTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F0C3FBA114F6E05400B8E790 /* Build configuration list for PBXProject "GuiaTv" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0C3FBD814F6E05400B8E790 /* Debug */,
+				F0C3FBD914F6E05400B8E790 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0C3FBDA14F6E05400B8E790 /* Build configuration list for PBXNativeTarget "GuiaTv" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0C3FBDB14F6E05400B8E790 /* Debug */,
+				F0C3FBDC14F6E05400B8E790 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F0C3FBDD14F6E05400B8E790 /* Build configuration list for PBXNativeTarget "GuiaTvTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0C3FBDE14F6E05400B8E790 /* Debug */,
+				F0C3FBDF14F6E05400B8E790 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F0C3FB9E14F6E05400B8E790 /* Project object */;
+}
