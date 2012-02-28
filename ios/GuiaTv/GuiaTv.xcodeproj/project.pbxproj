@@ -20,6 +20,25 @@
 		F0C3FBCC14F6E05400B8E790 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0C3FBAD14F6E05400B8E790 /* Foundation.framework */; };
 		F0C3FBD414F6E05400B8E790 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F0C3FBD214F6E05400B8E790 /* InfoPlist.strings */; };
 		F0C3FBD714F6E05400B8E790 /* GuiaTvTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C3FBD614F6E05400B8E790 /* GuiaTvTests.m */; };
+		F0C3FBE714F6E09900B8E790 /* ChannelModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C3FBE214F6E09900B8E790 /* ChannelModel.m */; };
+		F0C3FBE814F6E09900B8E790 /* ChannelParser.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C3FBE414F6E09900B8E790 /* ChannelParser.m */; };
+		F0C3FBE914F6E09900B8E790 /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C3FBE614F6E09900B8E790 /* Model.m */; };
+		F0C3FBF914F6E14A00B8E790 /* PSStackedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C3FBED14F6E14A00B8E790 /* PSStackedViewController.m */; };
+		F0C3FBFA14F6E14A00B8E790 /* PSStackedViewGlobal.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C3FBF014F6E14A00B8E790 /* PSStackedViewGlobal.m */; };
+		F0C3FBFB14F6E14A00B8E790 /* PSStackedViewSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C3FBF214F6E14A00B8E790 /* PSStackedViewSegue.m */; };
+		F0C3FBFC14F6E14A00B8E790 /* PSSVContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C3FBF414F6E14A00B8E790 /* PSSVContainerView.m */; };
+		F0C3FBFD14F6E14A00B8E790 /* UIView+PSSizes.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C3FBF614F6E14A00B8E790 /* UIView+PSSizes.m */; };
+		F0C3FBFE14F6E14A00B8E790 /* UIViewController+PSStackedView.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C3FBF814F6E14A00B8E790 /* UIViewController+PSStackedView.m */; };
+		F0C3FC0014F6E1E100B8E790 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0C3FBFF14F6E1E100B8E790 /* QuartzCore.framework */; };
+		F0C3FC0714F6E43900B8E790 /* ChannelsListView.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C3FC0514F6E43900B8E790 /* ChannelsListView.m */; };
+		F0C3FC0F14F6EB0D00B8E790 /* ProgramacioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C3FC0D14F6EB0D00B8E790 /* ProgramacioViewController.m */; };
+		F0C3FC1014F6EB0D00B8E790 /* ProgramacioViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0C3FC0E14F6EB0D00B8E790 /* ProgramacioViewController.xib */; };
+		F0C3FC1614F7613D00B8E790 /* ProgramaModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C3FC1514F7613D00B8E790 /* ProgramaModel.m */; };
+		F0C3FC1914F7625700B8E790 /* ProgramacioParser.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C3FC1814F7625700B8E790 /* ProgramacioParser.m */; };
+		F0C3FC1B14F8191400B8E790 /* ProgramacioCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0C3FC1A14F8191300B8E790 /* ProgramacioCell.xib */; };
+		F0C3FC1F14F8C15A00B8E790 /* ProgramaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C3FC1D14F8C15A00B8E790 /* ProgramaViewController.m */; };
+		F0C3FC2014F8C15A00B8E790 /* ProgramaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0C3FC1E14F8C15A00B8E790 /* ProgramaViewController.xib */; };
+		F0C3FC2314F8FBEA00B8E790 /* ProgramacioModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C3FC2214F8FBEA00B8E790 /* ProgramacioModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,21 +56,57 @@
 		F0C3FBAB14F6E05400B8E790 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F0C3FBAD14F6E05400B8E790 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F0C3FBAF14F6E05400B8E790 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		F0C3FBB314F6E05400B8E790 /* GuiaTv-Info.plist */ = {isa = PBXFileReference; path = "GuiaTv-Info.plist"; sourceTree = "<group>"; };
+		F0C3FBB314F6E05400B8E790 /* GuiaTv-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GuiaTv-Info.plist"; sourceTree = "<group>"; };
 		F0C3FBB514F6E05400B8E790 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F0C3FBB714F6E05400B8E790 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F0C3FBB914F6E05400B8E790 /* GuiaTv-Prefix.pch */ = {isa = PBXFileReference; path = "GuiaTv-Prefix.pch"; sourceTree = "<group>"; };
-		F0C3FBBA14F6E05400B8E790 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		F0C3FBB914F6E05400B8E790 /* GuiaTv-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GuiaTv-Prefix.pch"; sourceTree = "<group>"; };
+		F0C3FBBA14F6E05400B8E790 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F0C3FBBB14F6E05400B8E790 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F0C3FBBD14F6E05400B8E790 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		F0C3FBBD14F6E05400B8E790 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		F0C3FBBE14F6E05400B8E790 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		F0C3FBC114F6E05400B8E790 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
 		F0C3FBC814F6E05400B8E790 /* GuiaTvTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GuiaTvTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0C3FBC914F6E05400B8E790 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		F0C3FBD114F6E05400B8E790 /* GuiaTvTests-Info.plist */ = {isa = PBXFileReference; path = "GuiaTvTests-Info.plist"; sourceTree = "<group>"; };
+		F0C3FBD114F6E05400B8E790 /* GuiaTvTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GuiaTvTests-Info.plist"; sourceTree = "<group>"; };
 		F0C3FBD314F6E05400B8E790 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		F0C3FBD514F6E05400B8E790 /* GuiaTvTests.h */ = {isa = PBXFileReference; path = GuiaTvTests.h; sourceTree = "<group>"; };
+		F0C3FBD514F6E05400B8E790 /* GuiaTvTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GuiaTvTests.h; sourceTree = "<group>"; };
 		F0C3FBD614F6E05400B8E790 /* GuiaTvTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GuiaTvTests.m; sourceTree = "<group>"; };
+		F0C3FBE114F6E09900B8E790 /* ChannelModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChannelModel.h; sourceTree = "<group>"; };
+		F0C3FBE214F6E09900B8E790 /* ChannelModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChannelModel.m; sourceTree = "<group>"; };
+		F0C3FBE314F6E09900B8E790 /* ChannelParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChannelParser.h; sourceTree = "<group>"; };
+		F0C3FBE414F6E09900B8E790 /* ChannelParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChannelParser.m; sourceTree = "<group>"; };
+		F0C3FBE514F6E09900B8E790 /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		F0C3FBE614F6E09900B8E790 /* Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
+		F0C3FBEB14F6E14A00B8E790 /* PSStackedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PSStackedView.h; path = PSStackedView/PSStackedView.h; sourceTree = "<group>"; };
+		F0C3FBEC14F6E14A00B8E790 /* PSStackedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PSStackedViewController.h; path = PSStackedView/PSStackedViewController.h; sourceTree = "<group>"; };
+		F0C3FBED14F6E14A00B8E790 /* PSStackedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PSStackedViewController.m; path = PSStackedView/PSStackedViewController.m; sourceTree = "<group>"; };
+		F0C3FBEE14F6E14A00B8E790 /* PSStackedViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PSStackedViewDelegate.h; path = PSStackedView/PSStackedViewDelegate.h; sourceTree = "<group>"; };
+		F0C3FBEF14F6E14A00B8E790 /* PSStackedViewGlobal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PSStackedViewGlobal.h; path = PSStackedView/PSStackedViewGlobal.h; sourceTree = "<group>"; };
+		F0C3FBF014F6E14A00B8E790 /* PSStackedViewGlobal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PSStackedViewGlobal.m; path = PSStackedView/PSStackedViewGlobal.m; sourceTree = "<group>"; };
+		F0C3FBF114F6E14A00B8E790 /* PSStackedViewSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PSStackedViewSegue.h; path = PSStackedView/PSStackedViewSegue.h; sourceTree = "<group>"; };
+		F0C3FBF214F6E14A00B8E790 /* PSStackedViewSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PSStackedViewSegue.m; path = PSStackedView/PSStackedViewSegue.m; sourceTree = "<group>"; };
+		F0C3FBF314F6E14A00B8E790 /* PSSVContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PSSVContainerView.h; path = PSStackedView/PSSVContainerView.h; sourceTree = "<group>"; };
+		F0C3FBF414F6E14A00B8E790 /* PSSVContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PSSVContainerView.m; path = PSStackedView/PSSVContainerView.m; sourceTree = "<group>"; };
+		F0C3FBF514F6E14A00B8E790 /* UIView+PSSizes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+PSSizes.h"; path = "PSStackedView/UIView+PSSizes.h"; sourceTree = "<group>"; };
+		F0C3FBF614F6E14A00B8E790 /* UIView+PSSizes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+PSSizes.m"; path = "PSStackedView/UIView+PSSizes.m"; sourceTree = "<group>"; };
+		F0C3FBF714F6E14A00B8E790 /* UIViewController+PSStackedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIViewController+PSStackedView.h"; path = "PSStackedView/UIViewController+PSStackedView.h"; sourceTree = "<group>"; };
+		F0C3FBF814F6E14A00B8E790 /* UIViewController+PSStackedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+PSStackedView.m"; path = "PSStackedView/UIViewController+PSStackedView.m"; sourceTree = "<group>"; };
+		F0C3FBFF14F6E1E100B8E790 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F0C3FC0414F6E43900B8E790 /* ChannelsListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChannelsListView.h; sourceTree = "<group>"; };
+		F0C3FC0514F6E43900B8E790 /* ChannelsListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChannelsListView.m; sourceTree = "<group>"; };
+		F0C3FC0C14F6EB0D00B8E790 /* ProgramacioViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgramacioViewController.h; sourceTree = "<group>"; };
+		F0C3FC0D14F6EB0D00B8E790 /* ProgramacioViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgramacioViewController.m; sourceTree = "<group>"; };
+		F0C3FC0E14F6EB0D00B8E790 /* ProgramacioViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProgramacioViewController.xib; sourceTree = "<group>"; };
+		F0C3FC1414F7613D00B8E790 /* ProgramaModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgramaModel.h; sourceTree = "<group>"; };
+		F0C3FC1514F7613D00B8E790 /* ProgramaModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgramaModel.m; sourceTree = "<group>"; };
+		F0C3FC1714F7625700B8E790 /* ProgramacioParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgramacioParser.h; sourceTree = "<group>"; };
+		F0C3FC1814F7625700B8E790 /* ProgramacioParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgramacioParser.m; sourceTree = "<group>"; };
+		F0C3FC1A14F8191300B8E790 /* ProgramacioCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProgramacioCell.xib; sourceTree = "<group>"; };
+		F0C3FC1C14F8C15A00B8E790 /* ProgramaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgramaViewController.h; sourceTree = "<group>"; };
+		F0C3FC1D14F8C15A00B8E790 /* ProgramaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgramaViewController.m; sourceTree = "<group>"; };
+		F0C3FC1E14F8C15A00B8E790 /* ProgramaViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProgramaViewController.xib; sourceTree = "<group>"; };
+		F0C3FC2114F8FBE900B8E790 /* ProgramacioModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgramacioModel.h; sourceTree = "<group>"; };
+		F0C3FC2214F8FBEA00B8E790 /* ProgramacioModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgramacioModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +114,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0C3FC0014F6E1E100B8E790 /* QuartzCore.framework in Frameworks */,
 				F0C3FBAC14F6E05400B8E790 /* UIKit.framework in Frameworks */,
 				F0C3FBAE14F6E05400B8E790 /* Foundation.framework in Frameworks */,
 				F0C3FBB014F6E05400B8E790 /* CoreGraphics.framework in Frameworks */,
@@ -81,6 +137,7 @@
 		F0C3FB9C14F6E05400B8E790 = {
 			isa = PBXGroup;
 			children = (
+				F0C3FBFF14F6E1E100B8E790 /* QuartzCore.framework */,
 				F0C3FBB114F6E05400B8E790 /* GuiaTv */,
 				F0C3FBCF14F6E05400B8E790 /* GuiaTvTests */,
 				F0C3FBAA14F6E05400B8E790 /* Frameworks */,
@@ -111,6 +168,9 @@
 		F0C3FBB114F6E05400B8E790 /* GuiaTv */ = {
 			isa = PBXGroup;
 			children = (
+				F0C3FC0114F6E3EF00B8E790 /* ui */,
+				F0C3FBEA14F6E11200B8E790 /* StackedView */,
+				F0C3FBE014F6E05E00B8E790 /* Model */,
 				F0C3FBBA14F6E05400B8E790 /* AppDelegate.h */,
 				F0C3FBBB14F6E05400B8E790 /* AppDelegate.m */,
 				F0C3FBBD14F6E05400B8E790 /* ViewController.h */,
@@ -149,6 +209,62 @@
 				F0C3FBD214F6E05400B8E790 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F0C3FBE014F6E05E00B8E790 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F0C3FBE114F6E09900B8E790 /* ChannelModel.h */,
+				F0C3FBE214F6E09900B8E790 /* ChannelModel.m */,
+				F0C3FBE314F6E09900B8E790 /* ChannelParser.h */,
+				F0C3FBE414F6E09900B8E790 /* ChannelParser.m */,
+				F0C3FBE514F6E09900B8E790 /* Model.h */,
+				F0C3FBE614F6E09900B8E790 /* Model.m */,
+				F0C3FC1414F7613D00B8E790 /* ProgramaModel.h */,
+				F0C3FC1514F7613D00B8E790 /* ProgramaModel.m */,
+				F0C3FC1714F7625700B8E790 /* ProgramacioParser.h */,
+				F0C3FC1814F7625700B8E790 /* ProgramacioParser.m */,
+				F0C3FC2114F8FBE900B8E790 /* ProgramacioModel.h */,
+				F0C3FC2214F8FBEA00B8E790 /* ProgramacioModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		F0C3FBEA14F6E11200B8E790 /* StackedView */ = {
+			isa = PBXGroup;
+			children = (
+				F0C3FBEB14F6E14A00B8E790 /* PSStackedView.h */,
+				F0C3FBEC14F6E14A00B8E790 /* PSStackedViewController.h */,
+				F0C3FBED14F6E14A00B8E790 /* PSStackedViewController.m */,
+				F0C3FBEE14F6E14A00B8E790 /* PSStackedViewDelegate.h */,
+				F0C3FBEF14F6E14A00B8E790 /* PSStackedViewGlobal.h */,
+				F0C3FBF014F6E14A00B8E790 /* PSStackedViewGlobal.m */,
+				F0C3FBF114F6E14A00B8E790 /* PSStackedViewSegue.h */,
+				F0C3FBF214F6E14A00B8E790 /* PSStackedViewSegue.m */,
+				F0C3FBF314F6E14A00B8E790 /* PSSVContainerView.h */,
+				F0C3FBF414F6E14A00B8E790 /* PSSVContainerView.m */,
+				F0C3FBF514F6E14A00B8E790 /* UIView+PSSizes.h */,
+				F0C3FBF614F6E14A00B8E790 /* UIView+PSSizes.m */,
+				F0C3FBF714F6E14A00B8E790 /* UIViewController+PSStackedView.h */,
+				F0C3FBF814F6E14A00B8E790 /* UIViewController+PSStackedView.m */,
+			);
+			name = StackedView;
+			sourceTree = "<group>";
+		};
+		F0C3FC0114F6E3EF00B8E790 /* ui */ = {
+			isa = PBXGroup;
+			children = (
+				F0C3FC0414F6E43900B8E790 /* ChannelsListView.h */,
+				F0C3FC0514F6E43900B8E790 /* ChannelsListView.m */,
+				F0C3FC0C14F6EB0D00B8E790 /* ProgramacioViewController.h */,
+				F0C3FC0D14F6EB0D00B8E790 /* ProgramacioViewController.m */,
+				F0C3FC0E14F6EB0D00B8E790 /* ProgramacioViewController.xib */,
+				F0C3FC1A14F8191300B8E790 /* ProgramacioCell.xib */,
+				F0C3FC1C14F8C15A00B8E790 /* ProgramaViewController.h */,
+				F0C3FC1D14F8C15A00B8E790 /* ProgramaViewController.m */,
+				F0C3FC1E14F8C15A00B8E790 /* ProgramaViewController.xib */,
+			);
+			name = ui;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -223,6 +339,9 @@
 			files = (
 				F0C3FBB614F6E05400B8E790 /* InfoPlist.strings in Resources */,
 				F0C3FBC214F6E05400B8E790 /* ViewController.xib in Resources */,
+				F0C3FC1014F6EB0D00B8E790 /* ProgramacioViewController.xib in Resources */,
+				F0C3FC1B14F8191400B8E790 /* ProgramacioCell.xib in Resources */,
+				F0C3FC2014F8C15A00B8E790 /* ProgramaViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +379,21 @@
 				F0C3FBB814F6E05400B8E790 /* main.m in Sources */,
 				F0C3FBBC14F6E05400B8E790 /* AppDelegate.m in Sources */,
 				F0C3FBBF14F6E05400B8E790 /* ViewController.m in Sources */,
+				F0C3FBE714F6E09900B8E790 /* ChannelModel.m in Sources */,
+				F0C3FBE814F6E09900B8E790 /* ChannelParser.m in Sources */,
+				F0C3FBE914F6E09900B8E790 /* Model.m in Sources */,
+				F0C3FBF914F6E14A00B8E790 /* PSStackedViewController.m in Sources */,
+				F0C3FBFA14F6E14A00B8E790 /* PSStackedViewGlobal.m in Sources */,
+				F0C3FBFB14F6E14A00B8E790 /* PSStackedViewSegue.m in Sources */,
+				F0C3FBFC14F6E14A00B8E790 /* PSSVContainerView.m in Sources */,
+				F0C3FBFD14F6E14A00B8E790 /* UIView+PSSizes.m in Sources */,
+				F0C3FBFE14F6E14A00B8E790 /* UIViewController+PSStackedView.m in Sources */,
+				F0C3FC0714F6E43900B8E790 /* ChannelsListView.m in Sources */,
+				F0C3FC0F14F6EB0D00B8E790 /* ProgramacioViewController.m in Sources */,
+				F0C3FC1614F7613D00B8E790 /* ProgramaModel.m in Sources */,
+				F0C3FC1914F7625700B8E790 /* ProgramacioParser.m in Sources */,
+				F0C3FC1F14F8C15A00B8E790 /* ProgramaViewController.m in Sources */,
+				F0C3FC2314F8FBEA00B8E790 /* ProgramacioModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,7 +496,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GuiaTv/GuiaTv-Prefix.pch";
 				INFOPLIST_FILE = "GuiaTv/GuiaTv-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -373,7 +509,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GuiaTv/GuiaTv-Prefix.pch";
 				INFOPLIST_FILE = "GuiaTv/GuiaTv-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

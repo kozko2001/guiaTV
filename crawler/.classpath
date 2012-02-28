@@ -1,0 +1,25 @@
+<classpath>
+  <classpathentry output="target/scala-2.9.1/classes" path="src" kind="src"></classpathentry>
+  <classpathentry output="target/scala-2.9.1/classes" path="src/main/java" kind="src"></classpathentry>
+  <classpathentry output="target/scala-2.9.1/test-classes" path="src/test/scala" kind="src"></classpathentry>
+  <classpathentry output="target/scala-2.9.1/test-classes" path="src/test/java" kind="src"></classpathentry>
+  <classpathentry path="org.scala-ide.sdt.launching.SCALA_CONTAINER" kind="con"></classpathentry>
+  <classpathentry path="/Users/jordicoscolla/.ivy2/cache/nu.validator.htmlparser/htmlparser/jars/htmlparser-1.2.1.jar" kind="lib"></classpathentry>
+  <classpathentry path="/Users/jordicoscolla/.ivy2/cache/com.mongodb.casbah/casbah-query_2.9.1/jars/casbah-query_2.9.1-2.1.5-1.jar" kind="lib"></classpathentry>
+  <classpathentry path="/Users/jordicoscolla/.ivy2/cache/com.mongodb.casbah/casbah-commons_2.9.1/jars/casbah-commons_2.9.1-2.1.5-1.jar" kind="lib"></classpathentry>
+  <classpathentry path="/Users/jordicoscolla/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.6.4.jar" kind="lib"></classpathentry>
+  <classpathentry path="/Users/jordicoscolla/.ivy2/cache/org.scala-tools.time/time_2.9.1/jars/time_2.9.1-0.5.jar" kind="lib"></classpathentry>
+  <classpathentry path="/Users/jordicoscolla/.ivy2/cache/joda-time/joda-time/jars/joda-time-1.6.2.jar" kind="lib"></classpathentry>
+  <classpathentry path="/Users/jordicoscolla/.ivy2/cache/org.mongodb/mongo-java-driver/jars/mongo-java-driver-2.5.3.jar" kind="lib"></classpathentry>
+  <classpathentry path="/Users/jordicoscolla/.ivy2/cache/org.scalaj/scalaj-collection_2.9.1/jars/scalaj-collection_2.9.1-1.2.jar" kind="lib"></classpathentry>
+  <classpathentry path="/Users/jordicoscolla/.ivy2/cache/com.mongodb.casbah/casbah-core_2.9.1/jars/casbah-core_2.9.1-2.1.5-1.jar" kind="lib"></classpathentry>
+  <classpathentry path="/Users/jordicoscolla/.ivy2/cache/com.mongodb.casbah/casbah-gridfs_2.9.1/jars/casbah-gridfs_2.9.1-2.1.5-1.jar" kind="lib"></classpathentry>
+  <classpathentry path="/Users/jordicoscolla/.ivy2/cache/ch.qos.logback/logback-classic/jars/logback-classic-1.0.0.jar" kind="lib"></classpathentry>
+  <classpathentry path="/Users/jordicoscolla/.ivy2/cache/ch.qos.logback/logback-core/jars/logback-core-1.0.0.jar" kind="lib"></classpathentry>
+  <classpathentry path="/Users/jordicoscolla/.ivy2/cache/net.liftweb/lift-json_2.9.1/jars/lift-json_2.9.1-2.4.jar" kind="lib"></classpathentry>
+  <classpathentry path="/Users/jordicoscolla/.ivy2/cache/com.thoughtworks.paranamer/paranamer/jars/paranamer-2.3.jar" kind="lib"></classpathentry>
+  <classpathentry path="/Users/jordicoscolla/.ivy2/cache/org.scala-lang/scalap/jars/scalap-2.9.1.jar" kind="lib"></classpathentry>
+  <classpathentry path="org.scala-ide.sdt.launching.SCALA_COMPILER_CONTAINER" kind="con"></classpathentry>
+  <classpathentry path="org.eclipse.jdt.launching.JRE_CONTAINER" kind="con"></classpathentry>
+  <classpathentry path="bin" kind="output"></classpathentry>
+</classpath>

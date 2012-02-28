@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface ViewController : UIViewController
+#import "PSStackedViewController.h"
+@interface ViewController : PSStackedViewController
 
 @end

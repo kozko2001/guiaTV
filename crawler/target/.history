@@ -1,0 +1,13 @@
+run
+compile
+eclipse
+compile
+run
+compile
+clean
+compile
+run
+np 
+np guiaTv_crawler:np
+np
+eclipse

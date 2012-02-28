@@ -8,12 +8,17 @@
 
 #import <UIKit/UIKit.h>
 
+#import "ChannelsListView.h"
+#import "PSStackedViewController.h"
+#define XAppDelegate ((AppDelegate *)[[UIApplication sharedApplication] delegate])
+
 @class ViewController;
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
-@property (strong, nonatomic) ViewController *viewController;
+@property (strong, nonatomic) PSStackedViewController *stackController;
 
+@property (strong, nonatomic) UIViewController *channelsList;
 @end

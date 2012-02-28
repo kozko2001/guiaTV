@@ -9,18 +9,23 @@
 #import "AppDelegate.h"
 
 #import "ViewController.h"
-
+#import "ChannelsListView.h"
+#import "PSStackedViewController.h"
 @implementation AppDelegate
 
 @synthesize window = _window;
-@synthesize viewController = _viewController;
+@synthesize stackController = _stackController;
+@synthesize channelsList = _channelsList;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
-    self.viewController = [[ViewController alloc] initWithNibName:@"ViewController" bundle:nil];
-    self.window.rootViewController = self.viewController;
+
+    self.channelsList =  [[ChannelsListView alloc] init];
+    
+    self.stackController = [[PSStackedViewController alloc] initWithRootViewController: self.channelsList];
+
+    self.window.rootViewController = self.stackController;
     [self.window makeKeyAndVisible];
     return YES;
 }
