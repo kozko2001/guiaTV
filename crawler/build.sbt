@@ -19,3 +19,7 @@ libraryDependencies += "ch.qos.logback" % "logback-classic" % "1.0.0"
 libraryDependencies += "net.liftweb" %% "lift-json" % "2.4"
 
 libraryDependencies += "joda-time" % "joda-time" % "1.6" 
+
+libraryDependencies += "org.apache.httpcomponents" % "httpclient" % "4.1.2"
+
+libraryDependencies += "org.apache.httpcomponents" % "httpmime" % "4.0.3"

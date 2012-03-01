@@ -20,6 +20,12 @@
   <classpathentry path="/Users/jordicoscolla/.ivy2/cache/com.thoughtworks.paranamer/paranamer/jars/paranamer-2.3.jar" kind="lib"></classpathentry>
   <classpathentry path="/Users/jordicoscolla/.ivy2/cache/org.scala-lang/scalap/jars/scalap-2.9.1.jar" kind="lib"></classpathentry>
   <classpathentry path="org.scala-ide.sdt.launching.SCALA_COMPILER_CONTAINER" kind="con"></classpathentry>
+  <classpathentry path="/Users/jordicoscolla/.ivy2/cache/org.apache.httpcomponents/httpclient/jars/httpclient-4.1.2.jar" kind="lib"></classpathentry>
+  <classpathentry path="/Users/jordicoscolla/.ivy2/cache/org.apache.httpcomponents/httpcore/jars/httpcore-4.1.2.jar" kind="lib"></classpathentry>
+  <classpathentry path="/Users/jordicoscolla/.ivy2/cache/commons-logging/commons-logging/jars/commons-logging-1.1.1.jar" kind="lib"></classpathentry>
+  <classpathentry path="/Users/jordicoscolla/.ivy2/cache/commons-codec/commons-codec/jars/commons-codec-1.4.jar" kind="lib"></classpathentry>
+  <classpathentry path="/Users/jordicoscolla/.ivy2/cache/org.apache.httpcomponents/httpmime/jars/httpmime-4.0.3.jar" kind="lib"></classpathentry>
+  <classpathentry path="/Users/jordicoscolla/.ivy2/cache/org.apache.james/apache-mime4j/jars/apache-mime4j-0.6.jar" kind="lib"></classpathentry>
   <classpathentry path="org.eclipse.jdt.launching.JRE_CONTAINER" kind="con"></classpathentry>
   <classpathentry path="bin" kind="output"></classpathentry>
 </classpath>

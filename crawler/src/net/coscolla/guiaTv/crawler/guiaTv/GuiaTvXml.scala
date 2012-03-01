@@ -5,7 +5,14 @@ import java.io.FileOutputStream
 import java.nio.channels.Channels
 import net.coscolla.guiaTv.crawler.guiaTv.GuiaTvCrawler.ProgrammeDetail
 import net.coscolla.guiaTv.crawler.guiaTv.GuiaTvCrawler.GuiaTvProgramInfoValue
-
+import java.io.File
+import org.apache.http._
+import org.apache.http.impl.client._
+import org.apache.http.client.methods.HttpPost
+import org.apache.http.params.CoreProtocolPNames
+import org.apache.http.entity.mime._
+import org.apache.http.entity.mime.content._
+import org.apache.http.util.EntityUtils
 
 object GuiaTvXml {
 	def writeChannels( programacions : Seq[Programacio]) = {
@@ -33,7 +40,40 @@ object GuiaTvXml {
 		  				 Attribute(None,"start", Text(emissio.date.toString("yyyyMMdd")+emissio.hours.first.replace(":","")), Null) %
 		  				 Attribute(None,"end", Text(emissio.date.toString("yyyyMMdd")+emissio.hours.last.replace(":","")), Null)
 		})).flatten
-		save( <tv>{c}{p}</tv>, "/Users/jordicoscolla/Desktop/channels.xml")
+		
+		val result  = <tv>{c}{p}</tv>
+		val file = new File("/Users/jordicoscolla/Desktop/channels.xml")
+		
+		save( result , file)
+	    upload(file , "guiatvmobile.appspot.com/upload");
+		
+		
+	    
+	}
+	
+	def upload(file:File, url:String) = {
+	     val httpclient = new DefaultHttpClient();
+	     httpclient.getParams().setParameter(CoreProtocolPNames.PROTOCOL_VERSION, HttpVersion.HTTP_1_1);
+
+	     val httppost = new HttpPost(url);
+         val mpEntity = new MultipartEntity();
+         val cbFile = new FileBody(file, "image/jpeg");
+         mpEntity.addPart("data", cbFile);
+
+         httppost.setEntity(mpEntity);
+	    Console.println("executing request " + httppost.getRequestLine());
+	    val response = httpclient.execute(httppost);
+	    val resEntity = response.getEntity();
+	
+	    Console.println(response.getStatusLine());
+	    if (resEntity != null) {
+	      Console.println(EntityUtils.toString(resEntity));
+	    }
+	    if (resEntity != null) {
+	      resEntity.consumeContent();
+	    }
+	    
+	    httpclient.getConnectionManager().shutdown();
 	}
 	
 	def getPropertiesTag(detail:ProgrammeDetail) = 
@@ -48,10 +88,10 @@ object GuiaTvXml {
 	}
 	val Encoding = "UTF-8"
 
-	def save(node: Node, fileName: String) = {
+	def save(node: Node, file: File) = {
 	
 	    val pp = new PrettyPrinter(80, 2)
-	    val fos = new FileOutputStream(fileName)
+	    val fos = new FileOutputStream(file)
 	    val writer = Channels.newWriter(fos.getChannel(), Encoding)
 	
 	    try {
@@ -61,6 +101,5 @@ object GuiaTvXml {
 	        writer.close()
 	    }
 	
-	    fileName
 	}
 }

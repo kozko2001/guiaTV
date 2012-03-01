@@ -39,7 +39,7 @@ object GuiaTvCrawler {
 	    		.map(n => n \\ "a").first.map(n => (n.attribute("title").get.text, n.attribute("href").get.text))
 	    		.map(c => new Channel(c._1, c._2))
 	
-	    val programacio = channels.map ( c => Programacio(c, getProgramme(c.href)))
+	    val programacio = channels.take(1).map ( c => Programacio(c, getProgramme(c.href)))
 	    
 	    val xml = GuiaTvXml.writeChannels(programacio)
 	    Console.println(xml)

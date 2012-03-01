@@ -18,6 +18,8 @@
 	</natures>
 	<linkedResources><link><name>scala-0.9.1</name><type>2</type><location>/Users/jordicoscolla/Development/play-1.2.4_not_used/modules/scala-0.9.1/app</location></link>
 <link><name>conf/scala-0.9.1</name><type>2</type><location>/Users/jordicoscolla/Development/play-1.2.4_not_used/modules/scala-0.9.1/conf</location></link>
+<link><name>siena-2.0.6</name><type>2</type><location>/Users/jordicoscolla/Development/play-1.2.4_not_used/modules/siena-2.0.6/app</location></link>
+<link><name>conf/siena-2.0.6</name><type>2</type><location>/Users/jordicoscolla/Development/play-1.2.4_not_used/modules/siena-2.0.6/conf</location></link>
 <link><name>gae-1.6.0</name><type>2</type><location>/Users/jordicoscolla/Development/play-1.2.4_not_used/modules/gae-1.6.0/app</location></link>
 </linkedResources>
 </projectDescription>
