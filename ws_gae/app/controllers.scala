@@ -11,15 +11,24 @@ import java.io.File
 import java.io.FileInputStream
 import java.io.InputStream
 import play.data.Upload
+import scala.tools.nsc.io.Streamable
+import java.io.ByteArrayInputStream
+import java.io.FileOutputStream
 
 object Application extends Controller {
-    
-	def index = <HOLA /> 
-
+  
+  def getData() = 
+	  {
+		val model = currentXmlTv();
+		
+		model.xmlDecoded()
+	  }
+  
 	  def getXml() = 
 	  {
 		val model = currentXmlTv();
-		XML.loadString(model.xml);
+		
+		XML.loadString(model.xmlDecoded());
 	  }
 	
   def currentXmlTv(): xmltv = {
@@ -30,13 +39,14 @@ object Application extends Controller {
     {
       case true =>{
         m.id = 0;
-        m.xml = "<test />";
+        m.xmlEndoded("<test />");
         m.insert();
         m
       }
       case false => l.get(0).asInstanceOf[xmltv]
     }
   }
+  
   def channels =  {
     val xml = getXml()
     val channels = xml \ "channel"
@@ -54,10 +64,10 @@ object Application extends Controller {
   
   def upload(data:Upload)
   {
-     val xml = scala.io.Source.fromInputStream(data.asStream()).getLines().mkString("\n");
+     val xml = scala.io.Source.fromInputStream(data.asStream()).mkString
      
      val m = currentXmlTv();
-     m.xml = xml;
+     m.xmlEndoded(xml)
      m.update();
      
      <Ok />

@@ -6,5 +6,5 @@
 GET    /channels								Application.channels
 GET     /channels/{<[^_]+>id}					Application.programacion
 GET     /                                       Application.index
-GET     /xml                                    Application.getXml
+GET     /xml                                    Application.getData
 POST    /upload									Application.upload
